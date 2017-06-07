@@ -124,9 +124,16 @@ s.setAttribute('data-timestamp', +new Date());
           </div>
 
           <!--MAP-->
-        <div class="contact-area">
-          <div class="form-contact-area clearfix">
-            <div class="inner-contact clearfix ">
+<div class="hidden map-contact-body">
+            <div class="map-content">
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 20, attach: "*"});
+</script>
+            </div>
+          </div>
+          <!--END MAP-->
+        </div>
 <div id="vk_comments"></div>
 <script type="text/javascript">
 VK.Widgets.Comments("vk_comments", {limit: 20, attach: "*"});
