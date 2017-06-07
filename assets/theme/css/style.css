@@ -1670,14 +1670,14 @@ textArea.form-flat {
   position: relative;
 }
 .contact-area .form-contact-area {
-  width: 50%;
+  width: 100%;
   position: relative;
 }
 .contact-area .form-contact-area .inner-contact {
   clear: both;
-  width: 470px;
-  padding: 60px 40px 60px 0;
-  float: right;
+  width: 100%;
+  padding: 60px 5% 60px 5%;
+  float: left;
 }
 @media (max-width: 1024px) {
   .contact-area .form-contact-area {
